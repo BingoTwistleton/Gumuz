@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#45625E</color> <!-- top system bar -->
+    <color name="colorPrimary">#02307a</color>     <!-- top Oral Bible bar background color-->
+    <color name="colorToolbarText">#ffffff</color> <!-- text color of Oral Bible bar -->
+    <color name="colorAccent">#AA3045</color>      <!-- accents, such as sound tracker dot -->
+    <color name="colorActivityBackground">#ffffb3</color>
+    <color name="colorHeadline">#AA3045</color>
+    <color name="colorButtonBackground">#7ff4b6</color>
+    <color name="colorButtonText">#000000</color>
+
+</resources>

@@ -1,0 +1,32 @@
+
+
+styles.xml
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!-- colors system owned top bar -->
+        <item name="colorPrimary">@color/colorPrimary</item>         <!-- colors app's top bar, below system-owned bar -->
+        <item name="colorAccent">@color/colorAccent</item>           <!-- accents, such as sound tracker dot -->
+
+ic_launcher_background.xml
+<color name="ic_launcher_background">@color/colorToolbarBackground</color>
+
+
+    <color name="ic_launcher_background">#FEFFB0</color>
+
+colors.xml
+
+    <color name="colorPrimaryDark">#71D8A1</color> <!-- top system bar -->
+    <color name="colorPrimary">#45625E2</color>     <!-- top Oral Bible bar -->
+    <color name="colorToolbarBackground">#AA3045</color> <!-- color of Oral Bible bar -->
+    <color name="colorToolbar">#000000</color>     <!-- text in Oral Bible bar -->
+    <color name="colorAccent">#AA3045</color>      <!-- accents, such as sound tracker dot -->
+
+
+activity_main.xml
+android:background="#ffffb3"
+
+
+colorToolbarBackground:wq
+A:wq
+
+A
+A
+
