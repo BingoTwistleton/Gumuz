@@ -152,6 +152,9 @@ import java.util.concurrent.TimeUnit;
            if (mediaPlayer != null) {
                // mediaPlayer.pause();
                mediaPlayer.stop();
+
+              // mediaPlayer.reset(); seems just to put it on idle, not release
+
                // mediaPlayer.release(); //causes screen to go black
            }
 

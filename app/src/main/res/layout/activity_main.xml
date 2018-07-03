@@ -76,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="2. የዘፍጥረት መዝሙር"
                 android:visibility="visible"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -89,6 +90,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="3. አዳምና ሔዋን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button02"/>
@@ -101,6 +103,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="4. የሰው ውድቀት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button03"/>
@@ -113,6 +116,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="5. ሁሉም በደሉ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button04"/>
@@ -125,6 +129,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="6. አቤል እና ቃየን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button05"/>
@@ -137,6 +142,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="7. አቤል እና ቃየን መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button06"/>
@@ -149,6 +155,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="8. አቤል እና ቃየን የሴቶች መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button07"/>
@@ -161,6 +168,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
+                android:textColor="@color/colorButtonText"
                 android:text="9. ኖህ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button08"/>
@@ -173,7 +181,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ኖህ መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="10. ኖህ መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button09"/>
 
@@ -185,7 +194,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሳይጣን"
+                android:textColor="@color/colorButtonText"
+                android:text="11. ሳይጣን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button10"/>
 
@@ -197,7 +207,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የአብርሃም ቃልኪዳን"
+                android:textColor="@color/colorButtonText"
+                android:text="12. የአብርሃም ቃልኪዳን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button11"/>
 
@@ -209,7 +220,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የአብርሃም መጠራት"
+                android:textColor="@color/colorButtonText"
+                android:text="13. የአብርሃም መጠራት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button12"/>
 
@@ -221,7 +233,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሳራና አጋር"
+                android:textColor="@color/colorButtonText"
+                android:text="14. ሳራና አጋር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button13"/>
 
@@ -233,7 +246,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የይስሃቅ ቃልኪዳን"
+                android:textColor="@color/colorButtonText"
+                android:text="15. የይስሃቅ ቃልኪዳን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button14"/>
 
@@ -245,7 +259,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አብርሃምና ይስሃቅ"
+                android:textColor="@color/colorButtonText"
+                android:text="16. አብርሃምና ይስሃቅ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button15"/>
 
@@ -257,7 +272,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="በፈተና መደሰት"
+                android:textColor="@color/colorButtonText"
+                android:text="17. በፈተና መደሰት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button16"/>
 
@@ -269,7 +285,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ያእቆብ በረከትን ሰረቀ"
+                android:textColor="@color/colorButtonText"
+                android:text="18. ያእቆብ በረከትን ሰረቀ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button17"/>
 
@@ -281,7 +298,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ያእቆብና ኤሳው ታረቁ"
+                android:textColor="@color/colorButtonText"
+                android:text="19. ያእቆብና ኤሳው ታረቁ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button18"/>
 
@@ -293,7 +311,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ዮሴፍ ህልም አየ"
+                android:textColor="@color/colorButtonText"
+                android:text="20. ዮሴፍ ህልም አየ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button19"/>
 
@@ -305,7 +324,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የሴቶች መዝሙር ስለዮሴፍ"
+                android:textColor="@color/colorButtonText"
+                android:text="21. የሴቶች መዝሙር ስለዮሴፍ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button20"/>
 
@@ -317,7 +337,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ዮሴፍ ነገሰ"
+                android:textColor="@color/colorButtonText"
+                android:text="22. ዮሴፍ ነገሰ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button21"/>
 
@@ -329,7 +350,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሙሴ እና የእሳት ቁጥቋጦ"
+                android:textColor="@color/colorButtonText"
+                android:text="23. ሙሴ እና የእሳት ቁጥቋጦ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button22"/>
 
@@ -341,7 +363,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ፋሲካ "
+                android:textColor="@color/colorButtonText"
+                android:text="24. ፋሲካ "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button23"/>
 
@@ -353,7 +376,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የፋሲካ በግ"
+                android:textColor="@color/colorButtonText"
+                android:text="25. የፋሲካ በግ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button24"/>
 
@@ -365,7 +389,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="10ቱ ትዛዛት"
+                android:textColor="@color/colorButtonText"
+                android:text="26. 10ቱ ትዛዛት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button25"/>
 
@@ -377,7 +402,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ስለ 10ቱ ትዛዛት መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="27. ስለ 10ቱ ትዛዛት መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button26"/>
 
@@ -389,10 +415,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሰላዮች"
+                android:textColor="@color/colorButtonText"
+                android:text="28. ሰላዮች"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button27"/>
-
 
             <Button
                 android:id="@+id/button29"
@@ -401,7 +427,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ስለ ሰላዮች መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="29. ስለ ሰላዮች መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button28"/>
 
@@ -413,10 +440,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ዮርዳኖስ ዎንዝን ማቋረጥ"
+                android:textColor="@color/colorButtonText"
+                android:text="30. ዮርዳኖስ ዎንዝን ማቋረጥ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button29"/>
-
 
             <Button
                 android:id="@+id/button31"
@@ -425,10 +452,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ጌታን ማመስገን"
+                android:textColor="@color/colorButtonText"
+                android:text="31. ጌታን ማመስገን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button30"/>
-
 
             <Button
                 android:id="@+id/button32"
@@ -437,10 +464,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ጠላቶቻችንን ስለመውደድ መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="32. ጠላቶቻችንን ስለመውደድ መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button31"/>
-
 
             <Button
                 android:id="@+id/button33"
@@ -449,10 +476,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የኢየሱስ መወለድ"
+                android:textColor="@color/colorButtonText"
+                android:text="33. የኢየሱስ መወለድ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button32"/>
-
 
             <Button
                 android:id="@+id/button34"
@@ -461,10 +488,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የኢየሱስ ጥምቀት"
+                android:textColor="@color/colorButtonText"
+                android:text="34. የኢየሱስ ጥምቀት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button33"/>
-
 
             <Button
                 android:id="@+id/button35"
@@ -473,7 +500,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የመጀመሪያዎቹ ደቀመዛሙርት"
+                android:textColor="@color/colorButtonText"
+                android:text="35. የመጀመሪያዎቹ ደቀመዛሙርት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button34"/>
 
@@ -485,7 +513,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የሚጥል በሽታ ያለበት  ሰው"
+                android:textColor="@color/colorButtonText"
+                android:text="36. የሚጥል በሽታ ያለበት  ሰው"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button35"/>
 
@@ -497,7 +526,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የዘሪው ምሳሌ"
+                android:textColor="@color/colorButtonText"
+                android:text="37. የዘሪው ምሳሌ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button36"/>
 
@@ -509,7 +539,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ኢየሱስ ማእበሉን ጸጥ አደረገ"
+                android:textColor="@color/colorButtonText"
+                android:text="38. ኢየሱስ ማእበሉን ጸጥ አደረገ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button37"/>
 
@@ -521,7 +552,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የጌርጌሶኑ ሰው"
+                android:textColor="@color/colorButtonText"
+                android:text="39. የጌርጌሶኑ ሰው"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button38"/>
 
@@ -533,7 +565,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የእያሩስ ልጅ"
+                android:textColor="@color/colorButtonText"
+                android:text="40. የእያሩስ ልጅ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button39"/>
 
@@ -545,7 +578,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ደጉ ሳምራዊ "
+                android:textColor="@color/colorButtonText"
+                android:text="41. ደጉ ሳምራዊ "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button40"/>
 
@@ -557,10 +591,10 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሰለ እግዚአብሔር ፍቅር መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="42. ሰለ እግዚአብሔር ፍቅር መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button41"/>
-
 
             <Button
                 android:id="@+id/button43"
@@ -569,7 +603,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="እጁ የሰለለው ሰው"
+                android:textColor="@color/colorButtonText"
+                android:text="43. እጁ የሰለለው ሰው"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button42"/>
 
@@ -581,7 +616,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የፈሪሳዊያን ግብዝነት"
+                android:textColor="@color/colorButtonText"
+                android:text="44. የፈሪሳዊያን ግብዝነት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button43"/>
 
@@ -593,7 +629,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ኒቆዲሞስ"
+                android:textColor="@color/colorButtonText"
+                android:text="45. ኒቆዲሞስ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button44"/>
 
@@ -605,7 +642,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="በውሃ ጉድጓድ የነበረችው ሴት "
+                android:textColor="@color/colorButtonText"
+                android:text="46. በውሃ ጉድጓድ የነበረችው ሴት "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button45"/>
 
@@ -617,7 +655,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አንተ ክርስቶስ ነህ"
+                android:textColor="@color/colorButtonText"
+                android:text="47. አንተ ክርስቶስ ነህ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button46"/>
 
@@ -629,7 +668,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አላዛር እና ሃብታሙ ሰው"
+                android:textColor="@color/colorButtonText"
+                android:text="48. አላዛር እና ሃብታሙ ሰው"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button47"/>
 
@@ -641,7 +681,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ፊሪሳዊው እና ቀራጩ ሰው"
+                android:textColor="@color/colorButtonText"
+                android:text="49. ፊሪሳዊው እና ቀራጩ ሰው"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button48"/>
 
@@ -653,7 +694,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ሀብታም ወጣቱ መሪ"
+                android:textColor="@color/colorButtonText"
+                android:text="50. ሀብታም ወጣቱ መሪ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button49"/>
 
@@ -665,7 +707,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="እንደ ህጻናት ገነት መግባት"
+                android:textColor="@color/colorButtonText"
+                android:text="51. እንደ ህጻናት ገነት መግባት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button50"/>
 
@@ -677,7 +720,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አባካኙ ልጅ"
+                android:textColor="@color/colorButtonText"
+                android:text="52. አባካኙ ልጅ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button51"/>
 
@@ -689,7 +733,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ይቅርታ ማድረግ"
+                android:textColor="@color/colorButtonText"
+                android:text="53. ይቅርታ ማድረግ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button52"/>
 
@@ -701,7 +746,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አገልጋዮ መሪ "
+                android:textColor="@color/colorButtonText"
+                android:text="54. አገልጋዮ መሪ "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button53"/>
 
@@ -713,7 +759,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ዘኪዎስ"
+                android:textColor="@color/colorButtonText"
+                android:text="55. ዘኪዎስ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button54"/>
 
@@ -725,7 +772,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="በርጠሚዎስ"
+                android:textColor="@color/colorButtonText"
+                android:text="56. በርጠሚዎስ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button55"/>
 
@@ -737,7 +785,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አስሩ ደናግላን"
+                android:textColor="@color/colorButtonText"
+                android:text="57. አስሩ ደናግላን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button56"/>
 
@@ -749,7 +798,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="በድል መግባት"
+                android:textColor="@color/colorButtonText"
+                android:text="58. በድል መግባት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button57"/>
 
@@ -761,7 +811,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="በድል ስለ መግባት መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="59. በድል ስለ መግባት መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button58"/>
 
@@ -773,7 +824,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ማሪያም የኢየሱስን እግር ቀባች"
+                android:textColor="@color/colorButtonText"
+                android:text="60. ማሪያም የኢየሱስን እግር ቀባች"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button59"/>
 
@@ -785,7 +837,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የመጨረሻው እራት"
+                android:textColor="@color/colorButtonText"
+                android:text="61. የመጨረሻው እራት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button60"/>
 
@@ -797,7 +850,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የኢየሱስ መታሰር እና ፍርድ"
+                android:textColor="@color/colorButtonText"
+                android:text="62. የኢየሱስ መታሰር እና ፍርድ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button61"/>
 
@@ -809,7 +863,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ስቅለት"
+                android:textColor="@color/colorButtonText"
+                android:text="63. ስቅለት"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button62"/>
 
@@ -821,7 +876,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ስለመስቀል መዝሙር"
+                android:textColor="@color/colorButtonText"
+                android:text="64. ስለመስቀል መዝሙር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button63"/>
 
@@ -833,7 +889,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ትንሳኤ"
+                android:textColor="@color/colorButtonText"
+                android:text="65. ትንሳኤ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button64"/>
 
@@ -845,7 +902,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ስለ ትንሳኤ መዝሙር "
+                android:textColor="@color/colorButtonText"
+                android:text="66. ስለ ትንሳኤ መዝሙር "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button65"/>
 
@@ -857,7 +915,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የመንፈስ ቅዱስ መውረድ "
+                android:textColor="@color/colorButtonText"
+                android:text="67. የመንፈስ ቅዱስ መውረድ "
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button66"/>
 
@@ -869,7 +928,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ውብ በር"
+                android:textColor="@color/colorButtonText"
+                android:text="68. ውብ በር"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button67"/>
 
@@ -881,7 +941,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="አናኒያስ እና ሲጳራ"
+                android:textColor="@color/colorButtonText"
+                android:text="69. አናኒያስ እና ሲጳራ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button68"/>
 
@@ -893,7 +954,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ጠንቋዩ ሰምኦን"
+                android:textColor="@color/colorButtonText"
+                android:text="70. ጠንቋዩ ሰምኦን"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button69"/>
 
@@ -905,7 +967,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የኢትዮጵያው ጀንደረባ"
+                android:textColor="@color/colorButtonText"
+                android:text="71. የኢትዮጵያው ጀንደረባ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button70"/>
 
@@ -917,7 +980,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ወደ ደማስቆ የሚወስደው መንገድ"
+                android:textColor="@color/colorButtonText"
+                android:text="72. ወደ ደማስቆ የሚወስደው መንገድ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button71"/>
 
@@ -929,7 +993,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የእየሩሳሌም ጉባኤ"
+                android:textColor="@color/colorButtonText"
+                android:text="73. የእየሩሳሌም ጉባኤ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button72"/>
 
@@ -941,7 +1006,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="የፈሊፖስዮስ እስረኞች"
+                android:textColor="@color/colorButtonText"
+                android:text="74. የፈሊፖስዮስ እስረኞች"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button73"/>
 
@@ -953,7 +1019,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/colorButtonBackground"
                 android:onClick="sendMessage"
-                android:text="ራዕይ"
+                android:textColor="@color/colorButtonText"
+                android:text="75. ራዕይ"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/button74"/>
 
